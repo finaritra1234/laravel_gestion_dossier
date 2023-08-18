@@ -45,6 +45,23 @@
 <div class="wrapper">
 
   <!-- Navbar -->
+  <nav class="main-header navbar navbar-expand navbar-white navbar-light" style="height: 127px;">
+
+  <div class="row">
+    <div class="col-md-3">
+      <img src="{{asset('dist/img/drapeau.png')}}" class="user-image" alt="User Image" style="width: 158%%;position: relative;left: 10%;">
+    </div>
+    <div class="col-md-6">
+      <h1 style="margin-left: 10%;margin-top: 4%;">DREEN HAUTE MATSIATRA</h1>
+    </div>
+    <div class="col-md-3">
+    <img src="{{asset('dist/img/dreen.jpg')}}" class="user-image" alt="User Image" style="position: relative;left: 22%;width: 34%;">
+    </div>
+  </div>
+
+
+
+  </nav>
   <nav class="main-header navbar navbar-expand navbar-white navbar-light">
     <!-- Left navbar links -->
     <ul class="navbar-nav">
@@ -69,6 +86,8 @@
     </ul>
 
     <!-- Right navbar links -->
+
+
     <ul class="navbar-nav ml-auto">
 
       <li class="nav-item dropdown user-menu">
@@ -101,7 +120,12 @@
       </li>
 
     </ul>
+
+
+
+
   </nav>
+
   <!-- /.navbar -->
 
   <!-- Main Sidebar Container -->

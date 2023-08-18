@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Aug 03, 2023 at 12:23 PM
+-- Generation Time: Aug 18, 2023 at 01:39 PM
 -- Server version: 8.0.33
 -- PHP Version: 8.2.8
 
@@ -234,7 +234,7 @@ CREATE TABLE IF NOT EXISTS `traitements` (
   KEY `traitements_dossier_id_foreign` (`dossier_id`),
   KEY `traitements_responsable_id_foreign` (`responsable_id`),
   KEY `traitements_enseignant_id_foreign` (`enseignant_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `traitements`
@@ -244,7 +244,8 @@ INSERT INTO `traitements` (`id`, `date_depot`, `date_envoye`, `date_retour`, `st
 (1, '2023-07-31', '2023-08-02', '2023-08-02', 'REJETER', 'Dossier  incomplete', 2, 1, 1, '2023-08-01 17:49:09', '2023-08-02 15:42:54'),
 (2, '2023-08-02', '2023-08-02', '2023-08-02', 'REJETER', 'Information incomplet', 1, 1, 2, '2023-08-02 08:48:07', '2023-08-02 15:43:31'),
 (3, '2023-08-02', '2023-08-02', '2023-08-02', 'REJETER', 'Erreur sur IM', 3, 1, 1, '2023-08-02 13:35:06', '2023-08-02 15:44:13'),
-(4, '2023-08-02', NULL, NULL, NULL, NULL, 4, 1, 4, '2023-08-02 13:45:32', '2023-08-02 13:45:32');
+(4, '2023-08-02', NULL, NULL, NULL, NULL, 4, 1, 4, '2023-08-02 13:45:32', '2023-08-02 13:45:32'),
+(5, '2023-08-07', '2023-08-07', '2023-08-07', 'REJETER', 'Incompte', 5, 1, 1, '2023-08-07 08:40:33', '2023-08-07 08:42:24');
 
 --
 -- Constraints for dumped tables
